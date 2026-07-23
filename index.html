@@ -1,0 +1,208 @@
+            <!DOCTYPE html>
+            <html lang="pt-br">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Revisão Geral</title>
+                <h1>Revisão Geral</h1>
+                <hr>
+                <h2>Usando as principais tags</h2>
+                <p>
+                    Esta página apresenta os principais elementos utilizados na criação<br>
+                    de uma página web.
+                </p>
+            </head>
+            <body>
+                <hr>
+                <!--a tag "Nav" é utilizada para criação de Menus-->
+                <nav>
+                    <a href="#Texto">Texto</a>
+                    <a href="#Listas">Listas</a>
+                    <a href="#Imagens">Imagens</a>
+                    <a href="#Tabela">Tabela</a>
+                    <a href="#Formulario">Formulário</a>
+                </nav>
+                <hr>
+                <main>
+                    <!--Section utiliza-se para dividor blocos/seções-->
+                    <section id="texto">
+                        <!--&lt; e &gt; (Menor que e Maior que)-->
+                        <h2>Elementos de Texto</h2>
+                        <p>
+                            A tag <strong>&lt;strong&gt;</strong> <strong>para deixar o texto em negrito.</strong>
+                        </p>
+                        <p>
+                            A tag &lt;em&gt; <em>serve para deixar o texto em itálico.</em>
+                        </p>
+                        <p>
+                            A tag &lt;u&gt; <u>serve para sublinhar o texto.</u>
+                        </p>
+                        <p>
+                            A tag &lt;strike&gt; <strike> serve para riscar o texto.</strike>
+                        </p>
+                        <p>
+                            A tag &lt;mark&gt; <mark>serve para marcar o texto.</mark>
+                        </p>
+                        <p>
+                            A tag &lt;small&gt; <small>serve para reduzir o tamanho do texto.</small>
+                        </p>
+                        <p>
+                            A tag &lt;ins&gt; <ins>serve para representar um texto inserido.</ins>
+                        </p>
+                        <p>
+                            A tag &lt;br&gt; serve para quebrar linhas.
+                        </p>
+                        <p>
+                            Tag de linha utilizada para agrupar pequenos textos.
+                            <span>Spam</span>
+                        </p>
+                        <hr>
+                    </section>
+                    
+                    <section id = "lista">
+                        <h2>Listas</h2>
+                        <h3>Lista Ordenada</h3>
+                        <ol type="1">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                        </ol>
+
+                        <h3>Lista Não ordenada</h3>
+                        <ul type = "square">
+                            <li>Pedreiro</li>
+                            <li>Arquiteto</li>
+                            <li>Engenheiro</li>
+                        </ul>
+                    </section>
+                    <hr>
+                    
+                    <section id="imagem">
+                        <h2>Imagens</h2>
+                        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRUxjNLgSVTIy4Ab2_skR1QkYAbmCOmkEr4X7jsIx2Lg&s=10" alt="Suzuki Intrunder 125cc">
+                        <p>A tag img exibe uma imagem.</p>
+                    </section>
+                    <hr>
+                    
+                    <section id = "tabela">
+                        <h2>Tabelas</h2>
+                        <table border="5">
+                            <!--Título da tabela-->
+                            <caption>Exemplo de Tabela</caption>
+                            <thead>
+                                <th>Nome</th>
+                                <th>Curso</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>João Vitor</td>
+                                    <td>HTML5</td>
+                                </tr>
+                                <tr>
+                                    <td>Pedro Henrique</td>
+                                    <td>CSS3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <hr>
+
+                    <section>
+                    <h2>Formulário</h2>
+                    <form>
+                        <label>Nome:</label><br>
+                        <input type = "text"><br><br>
+
+                        <label>Email:</label><br>
+                        <input type="email"><br><br>
+
+                        <label>Senha:</label><br>
+                        <input type="password"><br><br>
+
+                        <label>Idade:</label><br>
+                        <input type="number"><br><br>
+
+                        <label>Data de nascimento:</label><br>
+                        <input type="date"><br><br>
+
+                        <label>Cor favorita:</label><br>
+                        <input type="color"><br><br>
+
+                        <label>Enviar arquivo: </label><br>
+                        <input type="file"><br><br>
+
+                        <label>Volume:</label><br>
+                        <input type="range"><br><br>
+
+                        <label>Pesquisa:</label><br>
+                        <input type="search"><br><br>
+
+                        <label>Site:</label><br>
+                        <input type="url"><br><br>
+                        
+                        <label>Telefone</label><br>
+                        <input type="tel"><br><br>
+
+                        <label>Escolha uma opção:</label><br>
+                        
+                        <select>
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>JavaScript</option>
+                            <option>PHP</option>
+                        </select><br><br>
+
+                        <label>Sexo</label><br>
+                        <input type="radio" name="sexo">Masculino
+                        <input type="radio" name="sexo">Feminino<br><br>
+                        
+                        <label>Interesses</label><br>
+                        <input type="checkbox">HTML<br>
+                        <input type="checkbox">CSS<br>
+                        <input type="checkbox">JavaScript<br><br>
+
+                        <label>Mensagem</label><br>
+                        <textarea rows="5" cols="40"></textarea><br><br>
+
+                        <button type="submit">
+                            Enviar
+                        </button>
+
+                        <button type="reset">
+                            Limpar
+                        </button>
+                    </form> 
+                </section>
+            <hr>
+
+            <!--Artigo-->
+            <article>
+                <h2>Artigo</h2>
+
+                <p> A tag ARTICLE representa um conteúdo independente <br>
+                    como uma notícia ou postagem de blog.
+                </p>
+            </article>
+
+            <!--Aside: utilizado para anúncios e etc.-->
+
+            <aside>
+                <h3>Curiosidade</h3>
+
+                <p>
+                    A tag ASIDE é utilizada para conteúdos complementares, <br>
+                    como anúncios ou informações adicionais.
+                </p>
+            </aside>
+        </main>
+        <hr>
+    
+        <footer>
+            <p>
+                <!--ALT + 0169 = atalho para copyright ou &copy;-->
+                © 2026 - Curso de Programação Web - Senai
+            </p>
+        </footer>
+    </body>
+</html>
